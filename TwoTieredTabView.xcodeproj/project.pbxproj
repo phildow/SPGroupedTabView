@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* TwoTieredTabViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* TwoTieredTabViewAppDelegate.m */; };
+		727565E913973BFF00EA7D2B /* NationsContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727565E813973BFF00EA7D2B /* NationsContent.xib */; };
+		727565ED13973C0800EA7D2B /* StatesContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727565EC13973C0800EA7D2B /* StatesContent.xib */; };
+		727565EF13973C0C00EA7D2B /* CitiesContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727565EE13973C0C00EA7D2B /* CitiesContent.xib */; };
+		727565F113973C1600EA7D2B /* PlanetsContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727565F013973C1600EA7D2B /* PlanetsContent.xib */; };
+		728FF0681396D9CB00288993 /* states-california.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 728FF0651396D9CB00288993 /* states-california.jpg */; };
+		728FF0691396D9CB00288993 /* states-colorado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 728FF0661396D9CB00288993 /* states-colorado.jpg */; };
+		728FF06A1396D9CB00288993 /* states-oklahoma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 728FF0671396D9CB00288993 /* states-oklahoma.jpg */; };
+		728FF0861396E42800288993 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728FF0851396E42800288993 /* WebKit.framework */; };
+		729893AB1399AC1800E3E2C0 /* planet.png in Resources */ = {isa = PBXBuildFile; fileRef = 729893AA1399AC1800E3E2C0 /* planet.png */; };
+		729893B41399AC8D00E3E2C0 /* city.png in Resources */ = {isa = PBXBuildFile; fileRef = 729893B31399AC8D00E3E2C0 /* city.png */; };
+		729893F01399AEE200E3E2C0 /* states.png in Resources */ = {isa = PBXBuildFile; fileRef = 729893EF1399AEE200E3E2C0 /* states.png */; };
+		729893FF1399AFD800E3E2C0 /* tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 729893FE1399AFD800E3E2C0 /* tower.png */; };
+		729894371399B51900E3E2C0 /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 729894361399B51900E3E2C0 /* License.rtf */; };
+		72F768F713918C1F0059FCEF /* SPGroupedTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F768F613918C1F0059FCEF /* SPGroupedTabView.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* TwoTieredTabViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTieredTabViewAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* TwoTieredTabViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoTieredTabViewAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* TwoTieredTabView_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTieredTabView_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		727565E813973BFF00EA7D2B /* NationsContent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NationsContent.xib; sourceTree = "<group>"; };
+		727565EC13973C0800EA7D2B /* StatesContent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatesContent.xib; sourceTree = "<group>"; };
+		727565EE13973C0C00EA7D2B /* CitiesContent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CitiesContent.xib; sourceTree = "<group>"; };
+		727565F013973C1600EA7D2B /* PlanetsContent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanetsContent.xib; sourceTree = "<group>"; };
+		728FF0651396D9CB00288993 /* states-california.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "states-california.jpg"; sourceTree = "<group>"; };
+		728FF0661396D9CB00288993 /* states-colorado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "states-colorado.jpg"; sourceTree = "<group>"; };
+		728FF0671396D9CB00288993 /* states-oklahoma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "states-oklahoma.jpg"; sourceTree = "<group>"; };
+		728FF0851396E42800288993 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		729893AA1399AC1800E3E2C0 /* planet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planet.png; sourceTree = "<group>"; };
+		729893B31399AC8D00E3E2C0 /* city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city.png; sourceTree = "<group>"; };
+		729893EF1399AEE200E3E2C0 /* states.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = states.png; sourceTree = "<group>"; };
+		729893FE1399AFD800E3E2C0 /* tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tower.png; sourceTree = "<group>"; };
+		729894361399B51900E3E2C0 /* License.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		72F768F513918C1F0059FCEF /* SPGroupedTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGroupedTabView.h; sourceTree = "<group>"; };
+		72F768F613918C1F0059FCEF /* SPGroupedTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGroupedTabView.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TwoTieredTabView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TwoTieredTabView-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TwoTieredTabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoTieredTabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				728FF0861396E42800288993 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* TwoTieredTabViewAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* TwoTieredTabViewAppDelegate.m */,
+				72F768F513918C1F0059FCEF /* SPGroupedTabView.h */,
+				72F768F613918C1F0059FCEF /* SPGroupedTabView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				728FF0851396E42800288993 /* WebKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TwoTieredTabView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TwoTieredTabView */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TwoTieredTabView;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* TwoTieredTabView_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				729894361399B51900E3E2C0 /* License.rtf */,
+				8D1107310486CEB800E47090 /* TwoTieredTabView-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				727565E813973BFF00EA7D2B /* NationsContent.xib */,
+				727565EC13973C0800EA7D2B /* StatesContent.xib */,
+				727565EE13973C0C00EA7D2B /* CitiesContent.xib */,
+				727565F013973C1600EA7D2B /* PlanetsContent.xib */,
+				728FF0651396D9CB00288993 /* states-california.jpg */,
+				728FF0661396D9CB00288993 /* states-colorado.jpg */,
+				728FF0671396D9CB00288993 /* states-oklahoma.jpg */,
+				729893FE1399AFD800E3E2C0 /* tower.png */,
+				729893AA1399AC1800E3E2C0 /* planet.png */,
+				729893B31399AC8D00E3E2C0 /* city.png */,
+				729893EF1399AEE200E3E2C0 /* states.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TwoTieredTabView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TwoTieredTabView" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoTieredTabView;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TwoTieredTabView;
+			productReference = 8D1107320486CEB800E47090 /* TwoTieredTabView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TwoTieredTabView" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TwoTieredTabView */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TwoTieredTabView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				728FF0681396D9CB00288993 /* states-california.jpg in Resources */,
+				728FF0691396D9CB00288993 /* states-colorado.jpg in Resources */,
+				728FF06A1396D9CB00288993 /* states-oklahoma.jpg in Resources */,
+				727565E913973BFF00EA7D2B /* NationsContent.xib in Resources */,
+				727565ED13973C0800EA7D2B /* StatesContent.xib in Resources */,
+				727565EF13973C0C00EA7D2B /* CitiesContent.xib in Resources */,
+				727565F113973C1600EA7D2B /* PlanetsContent.xib in Resources */,
+				729893AB1399AC1800E3E2C0 /* planet.png in Resources */,
+				729893B41399AC8D00E3E2C0 /* city.png in Resources */,
+				729893F01399AEE200E3E2C0 /* states.png in Resources */,
+				729893FF1399AFD800E3E2C0 /* tower.png in Resources */,
+				729894371399B51900E3E2C0 /* License.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* TwoTieredTabViewAppDelegate.m in Sources */,
+				72F768F713918C1F0059FCEF /* SPGroupedTabView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TwoTieredTabView_Prefix.pch;
+				INFOPLIST_FILE = "TwoTieredTabView-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TwoTieredTabView;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TwoTieredTabView_Prefix.pch;
+				INFOPLIST_FILE = "TwoTieredTabView-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TwoTieredTabView;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TwoTieredTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TwoTieredTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
